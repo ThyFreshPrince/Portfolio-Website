@@ -1,0 +1,35 @@
+/* Responsive presentation layer for the original Canvas ePortfolio export.
+   No original text, image, or link is removed. */
+:root { color-scheme: light; }
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172231; background: #fff; line-height: 1.65; }
+#container { width: 100%; min-width: 0 !important; }
+#header { height: auto; min-height: 72px; padding: 14px clamp(16px, 3vw, 42px); background: linear-gradient(135deg, #005035, #087f5b); box-sizing: border-box; }
+#header .logo { height: 44px; margin-right: 14px; }
+#header h1 { font-size: clamp(1.25rem, 2.5vw, 2rem); padding-top: 0; }
+#header h2 { padding-left: 0; margin-top: .35rem; color: #d8eee6; font-size: clamp(.82rem, 1.6vw, 1rem); }
+#header h2 a { color: inherit; }
+#nav-level2 { padding: .35rem clamp(12px, 2.5vw, 32px); background: #eef3f1; border-color: #c9d8d2; }
+#nav-level2 li { padding: .45rem .75rem; }
+#content { float: none; width: min(100% - clamp(24px, 5vw, 80px), 1500px); margin: 0 auto; padding: clamp(24px, 4vw, 60px) 0; box-sizing: border-box; }
+#content h2 { color: #005035; font-size: clamp(1.8rem, 4vw, 3.3rem); line-height: 1.08; }
+#content h3 { color: #172231; font-size: clamp(1.2rem, 2.2vw, 1.65rem); line-height: 1.25; margin-top: 1.6rem; }
+#content p, #content li { font-size: clamp(.98rem, 1.15vw, 1.08rem); }
+#content .user_content { overflow-wrap: anywhere; }
+#content .user_content img { max-width: 100% !important; height: auto !important; margin: .55rem auto; border-radius: 10px; box-shadow: 0 8px 24px rgba(8,20,34,.10); }
+#content .user_content a img { transition: transform .2s ease; }
+#content .user_content a:hover img { transform: scale(1.01); }
+#content table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+#content iframe, #content video { max-width: 100%; }
+#sidebar, #floating_sidebar { float: none; width: min(100% - clamp(24px, 5vw, 80px), 1500px); margin: 0 auto 3rem; padding: 1rem 1.25rem; box-sizing: border-box; border: 1px solid #d8dee6; border-radius: 14px; background: #f7f8fa; }
+#sidebar ul.item_list, #floating_sidebar ul.item_list { display: flex; flex-wrap: wrap; gap: .35rem .75rem; padding-left: 0; }
+#sidebar ul.item_list li, #floating_sidebar ul.item_list li { list-style: none; }
+#sidebar a, #floating_sidebar a { text-decoration: underline; }
+img[width], img[height] { max-width: 100% !important; height: auto !important; }
+@media (max-width: 700px) {
+  #header .logo { display: none; }
+  #nav-level2 ul { display: flex; flex-wrap: wrap; }
+  #nav-level2 li { float: none; }
+  #content { width: min(100% - 24px, 1500px); padding-top: 28px; }
+  #content .user_content img { border-radius: 7px; }
+}

@@ -1,0 +1,6 @@
+Save the photo you uploaded in ChatGPT as:
+
+about-me-photo.jpg
+
+Then upload that file to /public_html/assets/images/
+The About Me page is already coded to display it.

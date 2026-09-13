@@ -1,0 +1,1136 @@
+{
+  "design": {
+    "course": "MEGR 2156/2157 Sophomore Design",
+    "file_count": 109,
+    "entries": [
+      {
+        "name": "10_IMG_1051.jpeg",
+        "size_bytes": 1107099,
+        "sha256": "a64fdd7a4871ead60771c83b7f276b68d15b512d810a4cc06a0e235009c691b9"
+      },
+      {
+        "name": "11_20250903_145429000_iOS.jpg",
+        "size_bytes": 838592,
+        "sha256": "9626ca1725350e1be26538dcc5d17599c5ece885909a33fa49ec8728107c7616"
+      },
+      {
+        "name": "12_20250903_145444000_iOS.jpg",
+        "size_bytes": 1218635,
+        "sha256": "975c73e6135a72ae2ead2cf8f50807a9eebe787e226576b4ee080f6f96f8be22"
+      },
+      {
+        "name": "13_20250903_145457000_iOS.jpg",
+        "size_bytes": 1106312,
+        "sha256": "d22a50acc86fa8b3f988a236c455444831827e210bd9fbfb71990ca92a158aab"
+      },
+      {
+        "name": "14_20250903_145516000_iOS.jpg",
+        "size_bytes": 1185853,
+        "sha256": "4eb436ee5bc17f9b34c8d642770b6f8be34b4f3f6bcb5a080710ef524ab9103b"
+      },
+      {
+        "name": "15_20250903_145606000_iOS.jpg",
+        "size_bytes": 1618885,
+        "sha256": "cb26dd9408333fce275fd50b12f8bdb31cbdf9f07a29e74400de8b89d0dac170"
+      },
+      {
+        "name": "16_20250903_145643000_iOS.jpg",
+        "size_bytes": 1923380,
+        "sha256": "0167de769b6160db1c86072b8da52b4eed323405b633fd6fda8a43f4ca475ad2"
+      },
+      {
+        "name": "17_20250903_145711000_iOS.jpg",
+        "size_bytes": 1658757,
+        "sha256": "a7e995e594428a52be7fd0634e60dd6e3e26bac6e88390f5235d25ce29f9745a"
+      },
+      {
+        "name": "18_20250903_145727000_iOS.jpg",
+        "size_bytes": 1466385,
+        "sha256": "d767d419e2dd6ef28b8beb7ecc860e080357c014243a60fdc7239514275c2e11"
+      },
+      {
+        "name": "19_20250903_145851000_iOS.jpg",
+        "size_bytes": 1043847,
+        "sha256": "a9eb5c1dbd1ba079b5ea3f03415d464cf76cc016947d6d24be383c6683cf894a"
+      },
+      {
+        "name": "1_Screenshot 2025-08-25 201428.jpg",
+        "size_bytes": 82212,
+        "sha256": "87bb192cbed07c726a87058be17cd811ac1753c45c6567ef28173421a5f53cb5"
+      },
+      {
+        "name": "20_20250903_145912000_iOS.jpg",
+        "size_bytes": 1400868,
+        "sha256": "5fee1a58a324d22a3521e45c34f7b52b522d033ba9c3a0aa0a823a6e88c9e7c2"
+      },
+      {
+        "name": "21_20250903_145932000_iOS.jpg",
+        "size_bytes": 1049151,
+        "sha256": "6f13dc7b7e6310732c55859bf839c988ef26cf97107be76574b270e46adef8d5"
+      },
+      {
+        "name": "22_20250903_145945000_iOS.jpg",
+        "size_bytes": 797457,
+        "sha256": "8a1038835fb034cf1be62d9209809ecfc4ae6cd72d0be6d90c3a7782229d7b58"
+      },
+      {
+        "name": "23_20250904_001258000_iOS.jpg",
+        "size_bytes": 1148127,
+        "sha256": "469f519f83f15092479982ea17f810194664b3b9312d5f73fcf06e14fda4251c"
+      },
+      {
+        "name": "24_20250903_150043000_iOS.jpg",
+        "size_bytes": 1341175,
+        "sha256": "d1a2da51bb237ef9b450cccacb7b55b72e345edefd9dcebfa512cb5bec3aea5e"
+      },
+      {
+        "name": "25_20250903_152108000_iOS.jpg",
+        "size_bytes": 1054580,
+        "sha256": "8bd45020ce7420c793bf4aae791ac70d8efaeaab3569dd26599ee4ce61002966"
+      },
+      {
+        "name": "26_20250903_152121000_iOS.jpg",
+        "size_bytes": 720831,
+        "sha256": "0c583525a1c2ace1787c089efeda05ac52e21a0d4e9500eb364ea4b4049ceea4"
+      },
+      {
+        "name": "27_Screenshot 2025-09-02 165014.jpg",
+        "size_bytes": 174271,
+        "sha256": "4bb1594cd9fcbc90c11f71089554a4a0021084ef55bd4f36b9fc364eb026aa50"
+      },
+      {
+        "name": "28_Screenshot 2025-09-02 165030.jpg",
+        "size_bytes": 219822,
+        "sha256": "d327da52cde82ef8442e0b2407cee1dfd5c270201fec59550d872612c70d32b0"
+      },
+      {
+        "name": "29_Screenshot 2025-09-02 165146.jpg",
+        "size_bytes": 28199,
+        "sha256": "411a6ec31dc7f32360659ccf683544bbf9f916a1d07b76a8a02b028708c2e37c"
+      },
+      {
+        "name": "2_Screenshot 2025-08-25 201448.jpg",
+        "size_bytes": 71932,
+        "sha256": "5f4ea2f37d8bd21c67b1a4f16afdcc54334ffc498fe942402358f36c34b1dcf1"
+      },
+      {
+        "name": "30_Screenshot 2025-09-02 165204.jpg",
+        "size_bytes": 148424,
+        "sha256": "c6caa8eae185d81cd294112da274edabbc2241513f4e400638515ada49e09559"
+      },
+      {
+        "name": "31_Screenshot 2025-09-02 165245.jpg",
+        "size_bytes": 24732,
+        "sha256": "4252a06b245c65aa65107ae01e577edab1d6e0bb2ad30f37d70df062eea102fc"
+      },
+      {
+        "name": "32_Screenshot 2025-09-02 165417.jpg",
+        "size_bytes": 103539,
+        "sha256": "ae08b6c4fa959d6ebfd7dcaa40af414a976109a131f8527d6314a2b1f2b08564"
+      },
+      {
+        "name": "33_Screenshot 2025-09-02 165521.jpg",
+        "size_bytes": 156482,
+        "sha256": "5892ca9a0dcafabae65ba9c081d30e71129b8d2df7f87058e6b73b0aebe32d26"
+      },
+      {
+        "name": "34_Screenshot 2025-09-02 165541.jpg",
+        "size_bytes": 35313,
+        "sha256": "3b6a90d8e3f8ec3bcf739b80c1350525a9bfd9f1b1e2fe83cef142e1145ed1e0"
+      },
+      {
+        "name": "35_Screenshot 2025-09-02 165622.jpg",
+        "size_bytes": 43299,
+        "sha256": "9ea62310ed1af0e29715ec7bffd0b7f3cbc13b6a462169d432622d50b8cd4bdb"
+      },
+      {
+        "name": "36_Screenshot 2025-09-02 165639.jpg",
+        "size_bytes": 32869,
+        "sha256": "50497f3a0a67d57b3c040df216d2e2228045e319207eb84f7306668526908b4d"
+      },
+      {
+        "name": "37_Screenshot 2025-09-02 165719.jpg",
+        "size_bytes": 136564,
+        "sha256": "052aff8dbd79292e506be5e0dc45e87bc3838ee63597eaed00af132ff0c3b587"
+      },
+      {
+        "name": "38_Screenshot 2025-09-02 165841.jpg",
+        "size_bytes": 45431,
+        "sha256": "23d8efc43517f444eb8312aa320eb8dfa708893a482e73a11b391147ed36fe0c"
+      },
+      {
+        "name": "39_Screenshot 2025-09-02 170306.jpg",
+        "size_bytes": 38998,
+        "sha256": "ea51ff3111251c4d765bfcbc5fd5b017b9e47a8b9d0dfa67c7e3027406e44e69"
+      },
+      {
+        "name": "3_Screenshot 2025-08-25 201505.jpg",
+        "size_bytes": 77175,
+        "sha256": "3b3b2d52aa33cd54e26dbb54c9067e03a6223e378147ae6a5f88b951494811e8"
+      },
+      {
+        "name": "40_Screenshot 2025-09-02 170459.jpg",
+        "size_bytes": 97762,
+        "sha256": "f10cf3164a38dd9b0cf1b14e51f4b3e5e60f1164697ce4881971c7e2c933fc7d"
+      },
+      {
+        "name": "41_Screenshot 2025-09-02 170712.jpg",
+        "size_bytes": 69993,
+        "sha256": "4a3fa8861f93595efc8cdf9aeb260caff8bb10ceb7fa54a36bd004adc356f324"
+      },
+      {
+        "name": "42_Screenshot 2025-09-02 170748.jpg",
+        "size_bytes": 179358,
+        "sha256": "ecd2fc6ece16b894035231599e6af839333ce421b4f6a0afc37ba7bcdb1ee1ed"
+      },
+      {
+        "name": "43_Screenshot 2025-09-02 171034.jpg",
+        "size_bytes": 203688,
+        "sha256": "b8c60a91403f59597b886e48aa70967dca221b05906085ac67d786345370b3d9"
+      },
+      {
+        "name": "44_Screenshot 2025-09-02 171524.jpg",
+        "size_bytes": 76884,
+        "sha256": "e6848bc3d2bef45bbb7ca08bf0cc7d83f80cebbe9c1204bf672b961ab0ea4c22"
+      },
+      {
+        "name": "45_Screenshot 2025-09-02 172024.jpg",
+        "size_bytes": 77668,
+        "sha256": "f3d43ec39a8dbb5acc929502010c6778f46d29b90094fa2f7895cdb6551c0c40"
+      },
+      {
+        "name": "46_Screenshot 2025-09-02 172240.jpg",
+        "size_bytes": 179019,
+        "sha256": "f5f54324a60624e14fb7b74cfe58964ece0ad55909491371c639addb2d265084"
+      },
+      {
+        "name": "47_Screenshot 2025-09-02 172302.jpg",
+        "size_bytes": 146682,
+        "sha256": "237db58a1738f090761182bf4f39aad918f1f9001838a71ff33b20ebd51d38c8"
+      },
+      {
+        "name": "48_Screenshot 2025-09-02 173152.jpg",
+        "size_bytes": 216397,
+        "sha256": "4fcd922d4e176712044e164b58faea336b29dfebdbd445ed1d64ca0f7fe9ba21"
+      },
+      {
+        "name": "49_Screenshot 2025-09-02 173711.jpg",
+        "size_bytes": 82942,
+        "sha256": "05a0a8d001823637d0ed30811a5c029d70f3e7f4a074aee584212767c2d41fd4"
+      },
+      {
+        "name": "4_Screenshot 2025-08-25 201519.jpg",
+        "size_bytes": 73508,
+        "sha256": "a8432f364ee6ca5072db4d0428e7b730e302d73326650e67703146b364fc1e28"
+      },
+      {
+        "name": "50_Screenshot 2025-09-02 174107.jpg",
+        "size_bytes": 62359,
+        "sha256": "2eda2d14cbce5fcb844944b0670074f740035bf9429deb2c38f2de8c93b969a5"
+      },
+      {
+        "name": "51_Screenshot 2025-09-02 202234.jpg",
+        "size_bytes": 111847,
+        "sha256": "ffc587be423d538380840ce0b165c0a52d88947878767cb4b58145fa21072735"
+      },
+      {
+        "name": "52_Screenshot 2025-09-02 202250.jpg",
+        "size_bytes": 138517,
+        "sha256": "4927061b743152669e00c5219d49243d021094b47caf07da247f38a8a2ef2168"
+      },
+      {
+        "name": "53_Screenshot 2025-09-02 202933.jpg",
+        "size_bytes": 142262,
+        "sha256": "97a8e3fbcbe36892ef4fd8e9ab26597a5200adfb7e4732f272446f6eeb295a97"
+      },
+      {
+        "name": "54_Screenshot 2025-09-02 204107.jpg",
+        "size_bytes": 188765,
+        "sha256": "f2f715be76b4e22ad441faee0d374c986d5eb0f232f674718676ba32d73b8de6"
+      },
+      {
+        "name": "55_Screenshot 2025-09-02 204406.jpg",
+        "size_bytes": 83553,
+        "sha256": "96fa40d377cfca7ace514597d8776e3bb7a8f31eb302c5629bf480165fe2d6de"
+      },
+      {
+        "name": "56_Screenshot 2025-09-02 204531.jpg",
+        "size_bytes": 153616,
+        "sha256": "807704671f4030f6250d599ce43e434238cacbe38dd7c9d97a3d2a3ba412f667"
+      },
+      {
+        "name": "57_Screenshot 2025-09-02 211717.jpg",
+        "size_bytes": 122155,
+        "sha256": "ee735ab315011493fda23964c2fefbe10b5059c66bbb5987f5e95fdc3c05643b"
+      },
+      {
+        "name": "58_Screenshot 2025-09-02 204640.jpg",
+        "size_bytes": 205963,
+        "sha256": "9a4e86a312f7d7be0d0cde84eb0c38e7a7ca0721e88d90e93bc7e0614bb700ae"
+      },
+      {
+        "name": "59_Screenshot 2025-09-02 212012.jpg",
+        "size_bytes": 197879,
+        "sha256": "3ba3cff64521c7fc863c28bcaacf8205bb6d249bcdc49262dba88169187b992c"
+      },
+      {
+        "name": "5_Screenshot 2025-08-25 201532.jpg",
+        "size_bytes": 79786,
+        "sha256": "8edad3fbe7c5c3072426544008b833842342468ceca06e525bc5021c0774526d"
+      },
+      {
+        "name": "60_Screenshot 2025-09-02 212723.jpg",
+        "size_bytes": 70869,
+        "sha256": "3b4dcc28dfe34d43d2a87c95273e54b004a6c0b37d279ba94a298c2612dc4b07"
+      },
+      {
+        "name": "61_Screenshot 2025-09-02 212736.jpg",
+        "size_bytes": 75654,
+        "sha256": "2bee6533927046d1df1e78260575e71209f24e4074128174f825f797bc2a3902"
+      },
+      {
+        "name": "62_Screenshot 2025-09-02 212752.jpg",
+        "size_bytes": 81080,
+        "sha256": "970c4b6b30386b045913a2c71ac3bbe7981b28460b1020c7ba02498df4372642"
+      },
+      {
+        "name": "63_Screenshot 2025-09-02 212801.jpg",
+        "size_bytes": 51187,
+        "sha256": "2851848f0622c2549586613c05af9aff40c372c9dc4be438bea8c1986df8844e"
+      },
+      {
+        "name": "64_Screenshot 2025-09-02 212819.jpg",
+        "size_bytes": 83405,
+        "sha256": "aaadce133441d4f8e75dbc1e7499650eb63baa9e562167da7004b530600d3d5b"
+      },
+      {
+        "name": "65_Screenshot 2025-09-02 212830.jpg",
+        "size_bytes": 109476,
+        "sha256": "b6dbfd78eccf2e6a8447dd2d04d900cb3e7af1d031cba50e04a850c0bbe3cb21"
+      },
+      {
+        "name": "66_Screenshot 2025-09-02 212849.jpg",
+        "size_bytes": 189400,
+        "sha256": "2695acb54b08a3be247f8ef233be52872ba3017b303eb19ebd1e31c520ead59c"
+      },
+      {
+        "name": "67_Screenshot 2025-09-02 213110.jpg",
+        "size_bytes": 286423,
+        "sha256": "b3c5a1f412d1e06b7501e0d88eb2f438dd3dd785bf32ca189ff3734438088457"
+      },
+      {
+        "name": "68_Screenshot 2025-09-02 213132.jpg",
+        "size_bytes": 307261,
+        "sha256": "92a2826e42709d139123a95d3801059e31127f7850c589dfb0ce5b9567455cfc"
+      },
+      {
+        "name": "69_Screenshot 2025-09-02 213152.jpg",
+        "size_bytes": 246335,
+        "sha256": "91162c9d8ef328f1c0593a11be2fa43b521b671aa378e724d0014b90ae36e50d"
+      },
+      {
+        "name": "6_photo-1541185933-ef5d8ed016c2.jpeg",
+        "size_bytes": 508553,
+        "sha256": "7301508822061bec622b99a53b010df86eb97cca7152685c3673c46339090f3d"
+      },
+      {
+        "name": "70_Screenshot 2025-09-02 213217.jpg",
+        "size_bytes": 231145,
+        "sha256": "041695ba846cdd70f0846e3b1aeebdfb8cfec58ea274ae759f08d821457ce102"
+      },
+      {
+        "name": "71_Screenshot 2025-09-02 213300.jpg",
+        "size_bytes": 118940,
+        "sha256": "e153dea7ff643074fdda09c3ac01a7653943b83398ca4776e4d63a2ab17de8a7"
+      },
+      {
+        "name": "72_Screenshot 2025-09-02 213242.jpg",
+        "size_bytes": 74071,
+        "sha256": "625beb198e18f7c33f019f86cf3e422a54d97e0835a2738bd0de50f9728b3319"
+      },
+      {
+        "name": "73_Screenshot 2025-09-02 213731.jpg",
+        "size_bytes": 169834,
+        "sha256": "0567441fa4e0e0d02efb503249ccae6968c4e261a4a2ce2208df843afd743c71"
+      },
+      {
+        "name": "74_Screenshot 2025-09-03 213942.jpg",
+        "size_bytes": 84692,
+        "sha256": "d9a186350b64c60c4dbf9a7cb7b000e176efcd244c3748f3c1073967a90c8139"
+      },
+      {
+        "name": "75_Screenshot 2025-09-03 213955.jpg",
+        "size_bytes": 179464,
+        "sha256": "b5bc23a2c0fe23cef5ee053ee619c5cd3022df2817c9a217bdabe1074afb653b"
+      },
+      {
+        "name": "76_Screenshot 2025-09-03 214012.jpg",
+        "size_bytes": 152504,
+        "sha256": "35b0008afdba5952138e3e48c754e40f0e2cba20d7631592f2cb51dd8793e672"
+      },
+      {
+        "name": "77_Screenshot 2025-09-03 221132.jpg",
+        "size_bytes": 103837,
+        "sha256": "47ea3e5339b667ca6521a490f538975b88e3a6f58c8e1484cf98c22806f58989"
+      },
+      {
+        "name": "78_Screenshot 2025-09-03 221151.jpg",
+        "size_bytes": 167930,
+        "sha256": "785d102c997474cc035cb2c16e9990162f35433631505ed5b82f7626b3e8fb9e"
+      },
+      {
+        "name": "79_Screenshot 2025-09-03 221245.jpg",
+        "size_bytes": 133714,
+        "sha256": "6cf11f0f2cacff82fbd642e614d1c263348f104232ce49778772d0a68a47e212"
+      },
+      {
+        "name": "7_CarPlaneDesign (2).jpg",
+        "size_bytes": 123490,
+        "sha256": "d8a269f26841b335b4590f8c269894993b79a292d3737fbbb151b0433a65458d"
+      },
+      {
+        "name": "80_Screenshot 2025-09-03 221342.jpg",
+        "size_bytes": 154392,
+        "sha256": "f43d69f58da76bf68e1e6356b7a3176654c3d554449bab3dfc6f973ddd180154"
+      },
+      {
+        "name": "81_Screenshot 2025-09-03 221422.jpg",
+        "size_bytes": 59500,
+        "sha256": "1a234a1d76b9c1198b12eea18d1ad0ff9dca53a05bbffa582cda8ee9c35a7552"
+      },
+      {
+        "name": "82_Screenshot 2025-09-03 221451.jpg",
+        "size_bytes": 75468,
+        "sha256": "e5575a0277d8ccd030167e825b6ada3fd3499790856ed5aa3058cbb089cf0b9f"
+      },
+      {
+        "name": "83_TrussDesignSWfile.SLDPRT",
+        "size_bytes": 115094,
+        "sha256": "b17551d798b02499254c38a6aeb2b2fdbe4896426b36dde452f96e81ae7360f1"
+      },
+      {
+        "name": "84_TrussDesignAssignment2.STL",
+        "size_bytes": 64484,
+        "sha256": "88aaf86c630a7c4911291f5fb88abfb2168c153feaf26ea9b0864ef44e6b859f"
+      },
+      {
+        "name": "85_TrussDesignAssign.STEP",
+        "size_bytes": 91227,
+        "sha256": "3dd7600f1c30b010e10ac544825eab39d25b30d50ef089671da3ea2c0e8a05b4"
+      },
+      {
+        "name": "86_PinDesignAssignment.SLDPRT",
+        "size_bytes": 76811,
+        "sha256": "cf0fdb7839a6a9dec74cae1f9c0fd6567f88fbda56e38ac7353f5ff5558a74d7"
+      },
+      {
+        "name": "87_PinDesignAssignment2.STL",
+        "size_bytes": 7684,
+        "sha256": "cff9d8e0a9dad5c70a1eec2055a10ba60ef336fed5a575bb25e252daed10b13c"
+      },
+      {
+        "name": "88_PinDesignAssing.STEP",
+        "size_bytes": 11940,
+        "sha256": "1d7394919eb3bf77635e2365a840e084f33013ccd64d67decbc92c8d1e44957f"
+      },
+      {
+        "name": "89_Assignment 2 calculations.pdf",
+        "size_bytes": 6714901,
+        "sha256": "257dfa27377fded29d6b09267a61df9f892670e0a03692e329c93419b1407060"
+      },
+      {
+        "name": "8_Cape-Town-F1-experience-action.jpg",
+        "size_bytes": 777687,
+        "sha256": "f44eefa9efefc81225322fe1f041665832315eece0d695da591355a6c3f24e59"
+      },
+      {
+        "name": "90_PinJointFail.pdf",
+        "size_bytes": 6549575,
+        "sha256": "277ddbbbec9e350afadd46d4b8699ebd5df892495b60d4c3b37846ffcf8bde63"
+      },
+      {
+        "name": "91_Fails.pdf",
+        "size_bytes": 2094048,
+        "sha256": "8a3082f49735fa47fb9aa6b63afa9e0280c75967e0dc0479b8a760305548927f"
+      },
+      {
+        "name": "92_lightweight_steel_trusses_defined.pdf",
+        "size_bytes": 12804,
+        "sha256": "fb16f863fa8f3c2ace80c8c750d5ea33b281e2a7a4798f7a06f7acad59fc1ba9"
+      },
+      {
+        "name": "93_Source.pdf",
+        "size_bytes": 13715252,
+        "sha256": "1cfb42d7b092b2f33a7794ca12cc2b2fef6254aea0536f7429d0a001f9446113"
+      },
+      {
+        "name": "94_Design_and_FEM_modelling_of_steel_truss_girder_joi.pdf",
+        "size_bytes": 3297183,
+        "sha256": "da3332270d3d94178587a38660adb057bc58ae04987fa20e8d0106ab00d88bcb"
+      },
+      {
+        "name": "9_Screenshot 2025-09-03 112227.jpg",
+        "size_bytes": 11559,
+        "sha256": "3eec72ab13ddd80a087e6438840a54b73bed428670d30fb8d6788d533d150030"
+      },
+      {
+        "name": "assignments_a10-motor-selection-design.html",
+        "size_bytes": 8840,
+        "sha256": "737c0cd25c47c7bdf314274823dc77a2c9124fff7f0cd41153d87e67169d08c6"
+      },
+      {
+        "name": "assignments_a11-ethics-case-study.html",
+        "size_bytes": 3971,
+        "sha256": "0b2c81e55c3069e34175dc55e376188f472e07bb1b7752415c0c897b15dffd48"
+      },
+      {
+        "name": "assignments_a2-design-with-basic-stresses.html",
+        "size_bytes": 66945,
+        "sha256": "3a16fd30c86a3aeb22fe284bd4f546c8e79b5205a0ab46ebe4521b30df177f98"
+      },
+      {
+        "name": "assignments_a3-parametric-and-fea.html",
+        "size_bytes": 25686,
+        "sha256": "32b5f0348637ddab247409048a09748e1b1458fccf772b12b669cd07898f9bdf"
+      },
+      {
+        "name": "assignments_a4-motor-mount.html",
+        "size_bytes": 8064,
+        "sha256": "ad2e7a9215a78805d6062e28e967b679b2781afba10094493ea5df78989189e8"
+      },
+      {
+        "name": "assignments_a5-bracket-design.html",
+        "size_bytes": 4355,
+        "sha256": "1bc447e588d204b48ad5ef1e3447eafc3305e0eda45eaee62156021adc371a65"
+      },
+      {
+        "name": "assignments_a6-bracket-drawing.html",
+        "size_bytes": 5865,
+        "sha256": "7c16d11204fa082574c4bfe49cb9bdffd5b6ef74af0ff4ff6c1fe300eb9737c6"
+      },
+      {
+        "name": "assignments_a7-fea-on-bracket.html",
+        "size_bytes": 4731,
+        "sha256": "ce3d8df7ccbdf543a0a3a882f29a6a250da9353e07d7d76acecfb3f6f56c4b72"
+      },
+      {
+        "name": "assignments_a8-gear-box-design.html",
+        "size_bytes": 8441,
+        "sha256": "9b5244e048c7c0df6c31d34e43c63c386807fdf6bfe81a8ef78ffe85bd16aa70"
+      },
+      {
+        "name": "assignments_a9-lead-screw-design.html",
+        "size_bytes": 8142,
+        "sha256": "88659399bac915858ffa24375ca37e7a24dc67f0a41754459ee28197c7b3ad92"
+      },
+      {
+        "name": "eportfolio.css",
+        "size_bytes": 8233,
+        "sha256": "b234e3601f3b3dcb1303254ff660d6e9215da084daf2c14418d9fb1fa83ca787"
+      },
+      {
+        "name": "home_about-me.html",
+        "size_bytes": 12211,
+        "sha256": "b58b42bc1dbd356bbfcf14dcac516fb463566d53adeb717c0bcb6fee8b15085d"
+      },
+      {
+        "name": "home_landing.html",
+        "size_bytes": 4223,
+        "sha256": "40399d85a33e53a460617329119ac6e839ec991aef97a33b9cf1d27f85e7db07"
+      },
+      {
+        "name": "home_welcome.html",
+        "size_bytes": 2033,
+        "sha256": "67956d6d2f3e00ce9e39265a089da7c8becee61e11b407c58719eee49aa7209d"
+      },
+      {
+        "name": "logo.svg",
+        "size_bytes": 3858,
+        "sha256": "9be0d363d1e1928c872f976ea24263b8d3387d9c3a1939f8f5bfb06ef77f7782"
+      }
+    ],
+    "source_zip_sha256": "798b552797e0e4008fe71c49f5e75c7fe2617608bd5f9f11aba454d143899e42"
+  },
+  "l3d": {
+    "course": "MEGR 2156 L3D",
+    "file_count": 115,
+    "entries": [
+      {
+        "name": "10_Screenshot 2025-08-29 173021.jpg",
+        "size_bytes": 58278,
+        "sha256": "eeee70dba5630b5d869983d888c18cbec88825a2c903a48ebb91054c8cabfc5f"
+      },
+      {
+        "name": "11_Screenshot 2025-08-29 173053.jpg",
+        "size_bytes": 29338,
+        "sha256": "620bba71a7982bd036183bce16dea7cb21f9f43a1e64eb0db25e24eb5c4e49c4"
+      },
+      {
+        "name": "12_Screenshot 2025-08-29 173121.jpg",
+        "size_bytes": 14194,
+        "sha256": "639dba294d7228b96e08750437ff724960d22cafb0a87dc948606301b92ba392"
+      },
+      {
+        "name": "13_Screenshot 2025-08-29 173209.jpg",
+        "size_bytes": 45843,
+        "sha256": "6d00381228fbbec2ea83aff59c5c079689a2a2d612889f2fa7a67a2053629b87"
+      },
+      {
+        "name": "14_20250828_192626284_iOS.jpg",
+        "size_bytes": 4060623,
+        "sha256": "b32b78feb8975234897c9623ba24b45a31024370afd8e6a7fa0ea7b764afe901"
+      },
+      {
+        "name": "15_Screenshot 2025-08-29 173346.jpg",
+        "size_bytes": 85914,
+        "sha256": "e42652ef18d6d311bca8da72cddfb9608d583a928cdc67b6670bf9132577d0da"
+      },
+      {
+        "name": "16_Screenshot 2025-08-29 173418.jpg",
+        "size_bytes": 95393,
+        "sha256": "d7ff8c7f159ca837767d126a7c80fc6640a2fa0e432347be08c8447edbe4a38b"
+      },
+      {
+        "name": "17_Screenshot 2025-08-29 173453.jpg",
+        "size_bytes": 86043,
+        "sha256": "3dd4aa1529fa6b94d71524ed105dce6986a65cce5eb08c855ceafdb67fea959c"
+      },
+      {
+        "name": "18_Screenshot 2025-08-29 173520.jpg",
+        "size_bytes": 88475,
+        "sha256": "63032c241966cbde0ac71e278be25e07aaacedb06eb6f1c7a2ed01e3538b89cf"
+      },
+      {
+        "name": "19_Screenshot 2025-08-29 173550.jpg",
+        "size_bytes": 62412,
+        "sha256": "e5cee4c65675d0058923e67b6cae40c7d26acb06ce9d81411620e38e8bf92324"
+      },
+      {
+        "name": "1_Screenshot 2025-09-01 144452.jpg",
+        "size_bytes": 440793,
+        "sha256": "14c003c975897e4c80db6a3d4822560248a8a0b7e0316ef326497205bc242a7a"
+      },
+      {
+        "name": "20_Screenshot 2025-08-29 173621.jpg",
+        "size_bytes": 76092,
+        "sha256": "51ca348337b797570ddb67d5d4bb8b9344a140e5842635c91315648c42b0740e"
+      },
+      {
+        "name": "21_20250828_193043744_iOS.jpg",
+        "size_bytes": 5084438,
+        "sha256": "f33b8faf0fd02af40030a4f815921781f1f34854751ef3956ad8673419ae71fa"
+      },
+      {
+        "name": "22_Screenshot 2025-08-29 173724.jpg",
+        "size_bytes": 69742,
+        "sha256": "0c43dc60faf1763d9c64e9d4effc4194a59627da60e65daefa4497fc23ccdc97"
+      },
+      {
+        "name": "23_Screenshot 2025-08-29 173756.jpg",
+        "size_bytes": 99180,
+        "sha256": "ee49f2793ceb0e3d555ffe179dc0b8c7d95be6f7e203406dd290be8d9b66dae8"
+      },
+      {
+        "name": "24_Screenshot 2025-08-29 173829.jpg",
+        "size_bytes": 48019,
+        "sha256": "5d711b51dc347c8e55d177d7797e9265423b93e3f9156bf5e8dfce79d4447798"
+      },
+      {
+        "name": "25_Screenshot 2025-08-29 173907.jpg",
+        "size_bytes": 34705,
+        "sha256": "00491f688ff642e17aae26617e281736cade97cb089f3fd3cadc9f17102dc246"
+      },
+      {
+        "name": "26_Screenshot 2025-08-29 173941.jpg",
+        "size_bytes": 37311,
+        "sha256": "dd555100b313043b067abf5850c4644a217207440f56f47664cdf0828c6cc5a9"
+      },
+      {
+        "name": "27_Screenshot 2025-08-25 205045.jpg",
+        "size_bytes": 78899,
+        "sha256": "b03a851af8b3ccf0174095d028f6128eb650eaccda9e3dca586bc2697d32e7d6"
+      },
+      {
+        "name": "28_Screenshot 2025-08-25 205150.jpg",
+        "size_bytes": 60883,
+        "sha256": "8cb2f6915a77720bfa62d09c002dd2ee0eed7b1d332a991a8584eb7db41ee409"
+      },
+      {
+        "name": "29_Screenshot 2025-08-25 204954.jpg",
+        "size_bytes": 81420,
+        "sha256": "51fb223214500d3acd24b027e0a6beefb49c0fb6deaaaa7388891185e212af7f"
+      },
+      {
+        "name": "2_Screenshot 2025-08-29 172540.jpg",
+        "size_bytes": 15796,
+        "sha256": "4eddf3378b0a929d11efb1dbf38ab7e4c2ef7a9d85d9ae655cfab5fd92a0a5fe"
+      },
+      {
+        "name": "30_Screenshot 2025-08-25 205208.jpg",
+        "size_bytes": 249392,
+        "sha256": "cd8c3ad3883dcacb21186250a9777691d8058e345bf1ad51e18ba5d74a772dab"
+      },
+      {
+        "name": "31_Screenshot 2025-08-25 204931.jpg",
+        "size_bytes": 85575,
+        "sha256": "392f5c2e067def99e5a60ff8baddae29b03a74461a193c274954665e5a73baf7"
+      },
+      {
+        "name": "32_CarPlaneDesign (1).jpg",
+        "size_bytes": 123490,
+        "sha256": "d8a269f26841b335b4590f8c269894993b79a292d3737fbbb151b0433a65458d"
+      },
+      {
+        "name": "33_Screenshot 2025-08-25 205228.jpg",
+        "size_bytes": 242349,
+        "sha256": "398b5d4ef925f52943b62f75b54e301b9c7ddfc25f159823351aec819c421bf2"
+      },
+      {
+        "name": "34_Screenshot 2025-08-25 205306.jpg",
+        "size_bytes": 280627,
+        "sha256": "032b770a194255841d27ffba27549ed6705c61e1c0eecf0e6147928cd012c9c3"
+      },
+      {
+        "name": "35_CarPlaneDesign.jpg",
+        "size_bytes": 123490,
+        "sha256": "d8a269f26841b335b4590f8c269894993b79a292d3737fbbb151b0433a65458d"
+      },
+      {
+        "name": "36_Screenshot 2025-08-22 115753.jpg",
+        "size_bytes": 41605,
+        "sha256": "2e6814216c582ee654fd35b812b8e5be1a4e84067f900441e100b7992eab4a75"
+      },
+      {
+        "name": "37_photo-1541185933-ef5d8ed016c2.jpeg",
+        "size_bytes": 508553,
+        "sha256": "7301508822061bec622b99a53b010df86eb97cca7152685c3673c46339090f3d"
+      },
+      {
+        "name": "38_Cape-Town-F1-experience-action.jpg",
+        "size_bytes": 777687,
+        "sha256": "f44eefa9efefc81225322fe1f041665832315eece0d695da591355a6c3f24e59"
+      },
+      {
+        "name": "39_rawImage.jpg",
+        "size_bytes": 692906,
+        "sha256": "c6f70709cac827cbb9f2498fa93caf45eed75e10f134fc9c09bff4f742ddbdcc"
+      },
+      {
+        "name": "3_Screenshot 2025-09-01 141223.jpg",
+        "size_bytes": 52913,
+        "sha256": "2fd1b1fbe88a24c0a25a7eb7dfdb87392511a1a4a46423c8b72b46c27c0eaae1"
+      },
+      {
+        "name": "40_Screenshot 2025-09-05 102642.jpg",
+        "size_bytes": 51756,
+        "sha256": "e4e6e1eeddc742a53b2266912b887964697da56880043c8ba0da944dd9e45932"
+      },
+      {
+        "name": "41_Screenshot 2025-09-05 103821.jpg",
+        "size_bytes": 74454,
+        "sha256": "8590647f70cd71f95acfae6a6a41432e5e61f1d526b1bea9d03e61e04f49218f"
+      },
+      {
+        "name": "42_Screenshot 2025-09-05 105013.jpg",
+        "size_bytes": 77048,
+        "sha256": "be350322e2185f982d042befdaf7bef114f4ab5d276cec0cf6bbc8b51f18f331"
+      },
+      {
+        "name": "43_Screenshot 2025-09-05 112459.jpg",
+        "size_bytes": 174835,
+        "sha256": "5e7a3b300d25a98e3aa058ed1b1b210d5e791c8740c9b853ab6f2ca4adcbd1f2"
+      },
+      {
+        "name": "44_Screenshot 2025-09-05 112437.jpg",
+        "size_bytes": 168980,
+        "sha256": "5022e36f824e5724f78dc76fcfef0a2d9a7038382f5b17d0961da8b7a18f1b0a"
+      },
+      {
+        "name": "45_Screenshot 2025-09-05 112521.jpg",
+        "size_bytes": 50342,
+        "sha256": "570816aa6ff80b93f49af563a108e9bb373dd182e7f258f5af1dbabfa2174a9c"
+      },
+      {
+        "name": "46_Screenshot 2025-09-05 112911.jpg",
+        "size_bytes": 310478,
+        "sha256": "56089d5fc6765ee25bdd6f43bbed9d81e5a9fcde8f31a557518a2816c1c4139b"
+      },
+      {
+        "name": "47_Screenshot 2025-09-05 113435.jpg",
+        "size_bytes": 322362,
+        "sha256": "b337c5e848ff407b5dd120cdaccfa9a4b5f3c6d8f0453a2e53f17ebe509665c0"
+      },
+      {
+        "name": "48_Screenshot 2025-09-05 120153.jpg",
+        "size_bytes": 258717,
+        "sha256": "a3a6432f74f6ac6e2fd84f2a42564b2330de6f6338e7b3059a6a8911c21bd245"
+      },
+      {
+        "name": "49_20250906_191547337_iOS.jpg",
+        "size_bytes": 1732254,
+        "sha256": "2eb4d4b7156dc7469f768e5e70ee2f30b0b074550384d5062a23c89a7ef89463"
+      },
+      {
+        "name": "4_Screenshot 2025-09-01 141504.jpg",
+        "size_bytes": 73647,
+        "sha256": "51369195b9d1788ae3d8892567d7546f18b2ba8d05542984c58a24d9d86cb7e6"
+      },
+      {
+        "name": "50_20250906_191605230_iOS.jpg",
+        "size_bytes": 1096551,
+        "sha256": "28b6f64b4687cd42e0f3d41655c9cad7b4d2dfcde79ee5c00e06af40b4cf9a77"
+      },
+      {
+        "name": "51_DesignSomethingSmall.3mf",
+        "size_bytes": 169042,
+        "sha256": "b25440aab91cb13a21108b3b06ef165315343fe714992906a86d09bfc9efcbbf"
+      },
+      {
+        "name": "52_Screenshot 2025-09-05 180336.jpg",
+        "size_bytes": 74868,
+        "sha256": "45cfe4138deb04c80a9ee244acd161423135f006adf089caa8a3a2fd82f8d1f2"
+      },
+      {
+        "name": "53_Screenshot 2025-09-05 180436.jpg",
+        "size_bytes": 38404,
+        "sha256": "6626dd15a7d8946b3dd272ae5553e678b35715bc5ff76baa969d2203a460b82f"
+      },
+      {
+        "name": "54_Screenshot 2025-09-05 180633.jpg",
+        "size_bytes": 96719,
+        "sha256": "69d53fa8b4bc0468fc50a620d3b4174746aec94add70cf971c1a8ce1346fe980"
+      },
+      {
+        "name": "55_Screenshot 2025-09-05 181902.jpg",
+        "size_bytes": 125899,
+        "sha256": "dc7a4badf4977fac252477c4d077864bb8d0743ca505f271914550c88cc9b423"
+      },
+      {
+        "name": "56_Screenshot 2025-09-06 155130.jpg",
+        "size_bytes": 109464,
+        "sha256": "47f1867d21036633243e597678305b45328fa3cebed9c02dcc33d2c76beb8360"
+      },
+      {
+        "name": "57_Screenshot 2025-09-06 155247.jpg",
+        "size_bytes": 102114,
+        "sha256": "2b61f984c978bbb9f8c5c497de2c4309c62a38dad19f833fb18f8c5b7150d74b"
+      },
+      {
+        "name": "58_Screenshot 2025-09-05 182900.jpg",
+        "size_bytes": 99714,
+        "sha256": "e83d999053755fc6d38c7e902936eaeaaea584dbaf6dfe76f467bda466460824"
+      },
+      {
+        "name": "59_Screenshot 2025-09-05 182933.jpg",
+        "size_bytes": 129784,
+        "sha256": "f5857fcc00c0a729e07c427863279eea3a90f69430f9f29ecfc67b44469aba39"
+      },
+      {
+        "name": "5_Screenshot 2025-09-01 144705.jpg",
+        "size_bytes": 396690,
+        "sha256": "c1c174e096279639d4a3f2ceda05fddb64a6e5227c046aabb4a96820cee6642b"
+      },
+      {
+        "name": "60_Screenshot 2025-09-06 155433.jpg",
+        "size_bytes": 93239,
+        "sha256": "874c028adb97141ecd2ab70954c959330492b99b782a1c745d4ec350f8f40007"
+      },
+      {
+        "name": "61_Screenshot 2025-09-05 183343.jpg",
+        "size_bytes": 3271,
+        "sha256": "7431a8d1178f36abcd2993ce59bea21defbdbccb290406b091f5520dec7bacf6"
+      },
+      {
+        "name": "62_Screenshot 2025-09-05 183529.jpg",
+        "size_bytes": 24269,
+        "sha256": "659ff29e549b129512a91ede99fca4d39bbd850d910154379d2b800734eeed2f"
+      },
+      {
+        "name": "63_Screenshot 2025-09-05 183559.jpg",
+        "size_bytes": 24692,
+        "sha256": "32e891d8491f8865113f0c97c2ab4a881b0cb2bea3a7e5bba77f1244e82c7909"
+      },
+      {
+        "name": "64_Screenshot 2025-09-05 183700.jpg",
+        "size_bytes": 43498,
+        "sha256": "dc5f9b36f782de3b3f798dc658f307480a324cae5f6f7158c99a01a6ed229c78"
+      },
+      {
+        "name": "65_Screenshot 2025-09-05 183746.jpg",
+        "size_bytes": 95931,
+        "sha256": "2772a556624ee2607386516fda562e75fb8479b5b7b735c9e64abbcb47cdc8d8"
+      },
+      {
+        "name": "66_Screenshot 2025-09-05 183756.jpg",
+        "size_bytes": 38117,
+        "sha256": "277be2c55a75e27f19b8412f3c5ff1b4349497d427cf1b5cc0d00269b668970c"
+      },
+      {
+        "name": "67_Screenshot 2025-09-05 183953.jpg",
+        "size_bytes": 42628,
+        "sha256": "c5099b968fbee634d9bff17276c3423dde8d176ad24921864efd1421f39fe05c"
+      },
+      {
+        "name": "68_Screenshot 2025-09-05 184040.jpg",
+        "size_bytes": 102029,
+        "sha256": "ae5cba54ca04f7105a3017ce438eef0dee67cf6fad7716b81d23defa3cf8c630"
+      },
+      {
+        "name": "69_Screenshot 2025-09-05 190103.jpg",
+        "size_bytes": 43901,
+        "sha256": "9cef670391d1d10d7e5aa688e67615de14492c5efe93f8523d92ea08b917629f"
+      },
+      {
+        "name": "6_Screenshot 2025-08-29 172737.jpg",
+        "size_bytes": 31618,
+        "sha256": "581b5a3d14474c4783fe73e52376bb5b8947e26c2fb1482cec62ac01d40ae186"
+      },
+      {
+        "name": "70_Screenshot 2025-09-06 161422.jpg",
+        "size_bytes": 38532,
+        "sha256": "9c3ba7b6e480ddb8a257a19e267cb57aca91b241ef9ea598c34f8cea7cb2e9fe"
+      },
+      {
+        "name": "71_DesignSomethingSmallPT2.STEP",
+        "size_bytes": 53840,
+        "sha256": "5a1bf3cf73ab8852cf99de5ecfb8d53964828dd68e2c0d1b4deeb7fd1b4d5f86"
+      },
+      {
+        "name": "72_Screenshot 2025-09-05 190149.jpg",
+        "size_bytes": 297563,
+        "sha256": "93e322264848e3b5b72031e13b3b5193b2c923abd1ae306348a8742b1a3656d9"
+      },
+      {
+        "name": "73_Screenshot 2025-09-05 190234.jpg",
+        "size_bytes": 13298,
+        "sha256": "55447acdb8c6f2addfc27769bb8a0aba50037d9eb644ba51d31722d2f7374197"
+      },
+      {
+        "name": "74_Screenshot 2025-09-05 190247.jpg",
+        "size_bytes": 87634,
+        "sha256": "5f090a5e8b9f54067b59485fc3894412f71b1fbf6f3daccf6d5b454f4eec1591"
+      },
+      {
+        "name": "75_Screenshot 2025-09-05 190258.jpg",
+        "size_bytes": 76525,
+        "sha256": "8c81b5fd3f982ae446454c85737ecb22ceefaff30caddcc467cd8638dc606bbc"
+      },
+      {
+        "name": "76_Screenshot 2025-09-05 190317.jpg",
+        "size_bytes": 325362,
+        "sha256": "d186f427bbe0726eeef7324a6aa9beebc616b8ba76b969f63e956a9aabd8696e"
+      },
+      {
+        "name": "77_Screenshot 2025-09-05 190349.jpg",
+        "size_bytes": 37044,
+        "sha256": "4af6dc4261487ea22679bce1bbc7960ec13b0f3ea479d1b80519f867d3f8d581"
+      },
+      {
+        "name": "78_Screenshot 2025-09-05 190400.jpg",
+        "size_bytes": 32993,
+        "sha256": "83031b67a47667ae45e8c5232bff5874ef6d15e5b18e93b76031a91bf469b1d8"
+      },
+      {
+        "name": "79_Screenshot 2025-09-05 190653.jpg",
+        "size_bytes": 111095,
+        "sha256": "4325d60b74650539b54bf28238473346e2015d15ab092fefb31466c7ce9de020"
+      },
+      {
+        "name": "7_Screenshot 2025-08-29 172810.jpg",
+        "size_bytes": 67797,
+        "sha256": "0b0edc3d0100b13687e18e23d9ff98e1062379f168039e144e074235abbc7c54"
+      },
+      {
+        "name": "80_Screenshot 2025-09-05 113149.jpg",
+        "size_bytes": 71571,
+        "sha256": "23f8e3299808e8c75bf639e94a02ec37ff5b0e6c6795723b88acf2806a697173"
+      },
+      {
+        "name": "81_Screenshot 2025-09-06 163003.jpg",
+        "size_bytes": 78005,
+        "sha256": "3546ce9138a32a70a24fc94efaeab2af7bdf38cfe7ddc324bdb7342a80e3bc73"
+      },
+      {
+        "name": "82_Screenshot 2025-09-06 163035.jpg",
+        "size_bytes": 211417,
+        "sha256": "c5860ecec50b4ce7d79204dfd1e6066fafb87e0450387089900a79f586b44103"
+      },
+      {
+        "name": "83_Screenshot 2025-09-06 163916.jpg",
+        "size_bytes": 310397,
+        "sha256": "0822edd3ce4d9542a448baa453f2c50447855f4d3468b8648d4970795a90e41b"
+      },
+      {
+        "name": "84_Screenshot 2025-09-05 190929.jpg",
+        "size_bytes": 511991,
+        "sha256": "4ec42587bb029a715a94a96d4161bad3b826468154fcdb31935d24ad202c6e59"
+      },
+      {
+        "name": "85_Screenshot 2025-09-05 191148.jpg",
+        "size_bytes": 173664,
+        "sha256": "a1886ec6992b87113ac7634e8c47e2d6c82904653ed0bc40f4fd3cea761e2020"
+      },
+      {
+        "name": "86_Screenshot 2025-09-05 191222.jpg",
+        "size_bytes": 63174,
+        "sha256": "6097f3d4f48a42a917692850dbdb2c743b05d1a06de3bdd84077a9c6df68b8a4"
+      },
+      {
+        "name": "87_20250905_155031914_iOS.jpg",
+        "size_bytes": 4751685,
+        "sha256": "18fec9a2d724ed45ce1f77396ac34e704d467729faef0e67b38ad99dc3e88960"
+      },
+      {
+        "name": "88_20250908_183329952_iOS.jpg",
+        "size_bytes": 2091575,
+        "sha256": "5defea6bca043ea1b27b00a736fccdf5747cecaeb5f39bdad12d74db7440eedd"
+      },
+      {
+        "name": "89_20250905_155044182_iOS.jpg",
+        "size_bytes": 2320786,
+        "sha256": "b8aa6e2179117ac3bf4fef3c0434852f70a37806228c775b7ac4a5d043e43651"
+      },
+      {
+        "name": "8_Screenshot 2025-08-29 172851.jpg",
+        "size_bytes": 67265,
+        "sha256": "e2223e7c4ca773d02a63f9c8daa5e9757c8f0d0baae09fe0ad1c07171f411931"
+      },
+      {
+        "name": "90_20250905_155052362_iOS.jpg",
+        "size_bytes": 4535271,
+        "sha256": "ee690b8b310cca94a9ce8346a5fed2cd5d08082475eb15009b8b2aac4f4bf992"
+      },
+      {
+        "name": "91_20250905_155101309_iOS.jpg",
+        "size_bytes": 2217811,
+        "sha256": "c1db0fb8e1f0f896e75841b754bc4d52ce681150f3c65ab621abd779c448ab1e"
+      },
+      {
+        "name": "92_20250908_183805326_iOS.jpg",
+        "size_bytes": 1872102,
+        "sha256": "4358c8a7a699e1a92a7e8efbf25c81b2f2ed8d83cfe02074224a4755ba8a80aa"
+      },
+      {
+        "name": "93_20250905_155541280_iOS.jpg",
+        "size_bytes": 2130663,
+        "sha256": "b87592192a4ab4bbb4855ae66b56ae00b58c57d1060b881f748e13a746174494"
+      },
+      {
+        "name": "94_20250908_184210741_iOS.jpg",
+        "size_bytes": 944651,
+        "sha256": "e027deb6787a5f5c33b61a50e4dd931514f621a50eb14b8e0219d3a65e488756"
+      },
+      {
+        "name": "95_20250908_185045828_iOS.jpg",
+        "size_bytes": 1657479,
+        "sha256": "4ed86a252682411466f8cc4b926142782f85a12d10053958d91d89e099c8fc5e"
+      },
+      {
+        "name": "96_20250908_214113875_iOS.jpg",
+        "size_bytes": 1907089,
+        "sha256": "626c3859b14dc5740a4211620672e781538db2554ce342bb212a1363fbae5430"
+      },
+      {
+        "name": "97_DesignSomethingSmall.STEP",
+        "size_bytes": 1764000,
+        "sha256": "e28c135f6eecd69aaec89b50b1530a8e06ebb18d7595836f19333e188442b98d"
+      },
+      {
+        "name": "98_DesignSomethingSmallPT2.STEP",
+        "size_bytes": 53840,
+        "sha256": "5a1bf3cf73ab8852cf99de5ecfb8d53964828dd68e2c0d1b4deeb7fd1b4d5f86"
+      },
+      {
+        "name": "9_Screenshot 2025-08-29 172929.jpg",
+        "size_bytes": 27410,
+        "sha256": "03ae7fc656222fe5872bb5031d100227a5ae62ade66b6564ab775554017c2f2e"
+      },
+      {
+        "name": "assignments_benchmark-a-parameter-pt-2.html",
+        "size_bytes": 7145,
+        "sha256": "5f25e79c8864593e11bc3f6be6ac0831fa276a413b0152ae3b54ed25ea97dd51"
+      },
+      {
+        "name": "assignments_benchmark-a-parameter.html",
+        "size_bytes": 25956,
+        "sha256": "86a2c0881ec80533c659b4ad5fc4c38c85ed09cc6125bb022f447ec3ef60cae2"
+      },
+      {
+        "name": "assignments_design-a-sap-fit.html",
+        "size_bytes": 6261,
+        "sha256": "1d91644e411e7fa10a8f354e38ec07e58463b51a1187d205fe6da99401ab437c"
+      },
+      {
+        "name": "assignments_design-fits-for-an-artifact.html",
+        "size_bytes": 6702,
+        "sha256": "12ffea355745c1922d8cabac3b32d68a492ecd9e1cafa4696107ee1346e00ef3"
+      },
+      {
+        "name": "assignments_design-something-small.html",
+        "size_bytes": 41038,
+        "sha256": "d12b9a16a11e9b069adbd25b9fadcfb85c5c7a23a81bdc7937b8ea92084c8c6c"
+      },
+      {
+        "name": "assignments_download-something-small.html",
+        "size_bytes": 23100,
+        "sha256": "fd5aa1a2979f1e110038820425f5408e711bf582336683c0dbc9831fa08e600e"
+      },
+      {
+        "name": "assignments_lab-number-10-snap-fit-design-for-sla-printing-form-4.html",
+        "size_bytes": 6234,
+        "sha256": "9fa7ed8ad52ffa6fce5cf0ac7eb886cf7f9c0005a5160512cdc9a7aff1e08f85"
+      },
+      {
+        "name": "assignments_lab-number-7-linkage-mechanism.html",
+        "size_bytes": 15134,
+        "sha256": "c722f6c6dd5b368f0503e2eb94e5cdddcf2916ecc682d244149803fef3f5f32a"
+      },
+      {
+        "name": "assignments_lab-number-8-design-and-print-something-useful.html",
+        "size_bytes": 7652,
+        "sha256": "c7ba3b88e04e2ff2f9fbfa21f2f00354c601fced806be743426be79120584084"
+      },
+      {
+        "name": "assignments_lab-number-9-assignment-rc2-sliding-fit-design-and-verification.html",
+        "size_bytes": 7254,
+        "sha256": "75138975af5330e9dd624aa74b75d9d7ec8195700bebf9a148f62c0c8a790caa"
+      },
+      {
+        "name": "assignments_project-part-1-define-the-problem-and-rough-prototype.html",
+        "size_bytes": 9386,
+        "sha256": "b939d981daca5b52934f7803648b5bfa68a3fdb85dff404edce4c08b0982dc2f"
+      },
+      {
+        "name": "assignments_project-part-2-enhance-the-prototype.html",
+        "size_bytes": 8043,
+        "sha256": "5b71399b09fe4120c42141bdf1d96f4cee29907bbdd36b769ec4e8140f9d270a"
+      },
+      {
+        "name": "eportfolio.css",
+        "size_bytes": 8233,
+        "sha256": "b234e3601f3b3dcb1303254ff660d6e9215da084daf2c14418d9fb1fa83ca787"
+      },
+      {
+        "name": "home_about-me-page.html",
+        "size_bytes": 6326,
+        "sha256": "a41301bf22eb1b77b3211e7cb4f4e392dd01513ef4324ba5c8cded3d5bb16e74"
+      },
+      {
+        "name": "home_landing.html",
+        "size_bytes": 5050,
+        "sha256": "d948020a8bbac2a6de461792e332a1ce9b56defdff229d3e5d0f2781c0f7f2a4"
+      },
+      {
+        "name": "home_welcome.html",
+        "size_bytes": 2000,
+        "sha256": "b04f8bc5ef0ea5d434195668194f5fbde3ff46ea192ad2cd46ea3f91ec328c33"
+      },
+      {
+        "name": "logo.svg",
+        "size_bytes": 3858,
+        "sha256": "9be0d363d1e1928c872f976ea24263b8d3387d9c3a1939f8f5bfb06ef77f7782"
+      }
+    ],
+    "source_zip_sha256": "9e91e1b122625705721eb90d69f42cc3f2538eef4343a69d463557b377f2a8ab"
+  }
+}

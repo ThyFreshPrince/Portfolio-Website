@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Zechariah Diegelman mechanical engineering portfolio at UNC Charlotte.">
+  <title>Freshman Design | Zechariah Diegelman</title>
+  <script>
+    (function(){
+      const saved=localStorage.getItem('zac-portfolio-theme');
+      const theme=(saved==='light'||saved==='dark')?saved:
+        (window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+      document.documentElement.setAttribute('data-theme',theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/site-v4.css">
+
+  <style>
+    .freshman-portfolio {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .freshman-intro {
+      margin: 0;
+      line-height: 1.7;
+      max-width: 78ch;
+    }
+
+    .project-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .7rem;
+      margin: .25rem 0 0;
+    }
+
+    .project-tab {
+      appearance: none;
+      border: 1px solid rgba(127,127,127,.35);
+      border-radius: 999px;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      font-weight: 700;
+      padding: .72rem 1rem;
+      cursor: pointer;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+
+    .project-tab:hover {
+      transform: translateY(-1px);
+      border-color: currentColor;
+    }
+
+    .project-tab[aria-selected="true"] {
+      background: currentColor;
+    }
+
+    .project-tab[aria-selected="true"] span {
+      color: #fff;
+    }
+
+    html[data-theme="light"] .project-tab[aria-selected="true"] span {
+      color: #fff;
+    }
+
+    html[data-theme="dark"] .project-tab[aria-selected="true"] span {
+      color: #111;
+    }
+
+    .project-panel {
+      display: none;
+      border: 1px solid rgba(127,127,127,.28);
+      border-radius: 18px;
+      overflow: hidden;
+      background: rgba(127,127,127,.035);
+    }
+
+    .project-panel.active {
+      display: block;
+    }
+
+    .project-summary {
+      padding: 1.35rem 1.35rem 1.1rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .project-kicker {
+      margin: 0;
+      opacity: .7;
+      font-size: .82rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .project-summary h3 {
+      margin: 0;
+      font-size: clamp(1.45rem, 3vw, 2rem);
+      line-height: 1.15;
+    }
+
+    .project-summary p {
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    .project-meta {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: .75rem;
+    }
+
+    .project-meta div {
+      border: 1px solid rgba(127,127,127,.22);
+      border-radius: 12px;
+      padding: .85rem;
+    }
+
+    .project-meta strong {
+      display: block;
+      font-size: .73rem;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      opacity: .65;
+      margin-bottom: .25rem;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+    }
+
+    .skill-tags span {
+      border: 1px solid rgba(127,127,127,.3);
+      border-radius: 999px;
+      padding: .42rem .68rem;
+      font-size: .86rem;
+      line-height: 1;
+    }
+
+    .project-note {
+      border-left: 3px solid currentColor;
+      padding-left: .95rem;
+      opacity: .88;
+    }
+
+    .pdf-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .8rem;
+      flex-wrap: wrap;
+      padding: .9rem 1.1rem;
+      border-top: 1px solid rgba(127,127,127,.22);
+      border-bottom: 1px solid rgba(127,127,127,.22);
+    }
+
+    .pdf-toolbar strong {
+      font-size: .92rem;
+    }
+
+    .pdf-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+    }
+
+    .pdf-actions a {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      text-decoration: none;
+      border: 1px solid rgba(127,127,127,.35);
+      border-radius: 999px;
+      padding: .58rem .82rem;
+      color: inherit;
+      font-size: .88rem;
+      font-weight: 700;
+    }
+
+    .pdf-actions a:hover {
+      border-color: currentColor;
+    }
+
+    .pdf-viewer {
+      width: 100%;
+      height: min(78vh, 920px);
+      min-height: 640px;
+      background: rgba(127,127,127,.08);
+    }
+
+    .pdf-viewer iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #fff;
+    }
+
+    .mobile-pdf-note {
+      display: none;
+      padding: .9rem 1.1rem 1.1rem;
+      font-size: .9rem;
+      opacity: .72;
+    }
+
+    @media (max-width: 800px) {
+      .project-meta {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .pdf-viewer {
+        min-height: 540px;
+        height: 70vh;
+      }
+
+      .mobile-pdf-note {
+        display: block;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .project-meta {
+        grid-template-columns: 1fr;
+      }
+
+      .project-tab {
+        width: 100%;
+        text-align: left;
+      }
+
+      .pdf-viewer {
+        min-height: 470px;
+      }
+    }
+  </style>
+
+</head>
+<body data-page="projects">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="identity">
+      <h1>Zechariah Diegelman</h1>
+      <p>Mechanical Engineering Senior · Expected December 2027</p>
+      <span class="school">University of North Carolina at Charlotte</span>
+    </div>
+
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">☾ Dark</button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-item" data-nav="about" href="index.html">About Me</a>
+      <div class="dropdown">
+        <button class="nav-button" data-nav="projects" type="button" aria-haspopup="true" aria-expanded="false">
+          Projects <span class="chev">▼</span>
+        </button>
+        <div class="dropdown-menu" role="menu">
+          <a href="projects.html">Projects Overview</a>
+          <a href="sophomore-design.html">Sophomore Design</a>
+          <a href="freshman-design.html">Freshman Design</a>
+          <a href="mechatronics.html">Mechatronics I &amp; II</a>
+          <a href="additive-manufacturing.html">Additive Manufacturing</a>
+        </div>
+      </div>
+      <a class="nav-item" data-nav="resume" href="resume.html">Resume</a>
+      <a class="nav-item" data-nav="contact" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="card narrow">
+  <div class="card-head">
+    <h2>Freshman Design</h2>
+    <p>Introductory engineering, CAD, and prototyping</p>
+  </div>
+
+  <div class="freshman-portfolio">
+    <p class="freshman-intro">
+      These projects document my early engineering work in hands-on prototyping, microcontroller
+      programming, CAD, engineering drawings, mechanical systems, and design iteration.
+    </p>
+
+    <div class="project-tabs" role="tablist" aria-label="Freshman engineering projects">
+      <button class="project-tab" type="button" role="tab"
+        id="tab-security" aria-controls="project-security" aria-selected="true"
+        data-project-tab="project-security">
+        <span>Secure Delivery System</span>
+      </button>
+
+      <button class="project-tab" type="button" role="tab"
+        id="tab-toycar" aria-controls="project-toycar" aria-selected="false"
+        data-project-tab="project-toycar">
+        <span>Pull Back Toy Car Design</span>
+      </button>
+    </div>
+
+    <article class="project-panel active" id="project-security" role="tabpanel"
+      aria-labelledby="tab-security">
+      <div class="project-summary">
+        <p class="project-kicker">EGR 150 · Summer 2024 · Individual Project</p>
+        <h3>Secure Delivery System</h3>
+        <p>
+          Designed and built a microcontroller-based secure delivery prototype intended to reduce
+          package theft and monitor temperature-sensitive deliveries. A SparkFun RedBoard controlled
+          an ultrasonic distance sensor, servo-actuated lid, temperature sensor, LCD display, LED,
+          switch, and potentiometer.
+        </p>
+
+        <div class="project-meta">
+          <div><strong>Platform</strong>SparkFun RedBoard</div>
+          <div><strong>Control</strong>Arduino / C++</div>
+          <div><strong>Sensing</strong>Distance + Temperature</div>
+          <div><strong>Actuation</strong>Servo Motor</div>
+        </div>
+
+        <div class="skill-tags" aria-label="Secure delivery project skills">
+          <span>Arduino</span>
+          <span>Sensor Integration</span>
+          <span>Servo Control</span>
+          <span>Breadboarding</span>
+          <span>LCD Interface</span>
+          <span>Prototyping</span>
+          <span>Testing</span>
+        </div>
+
+        <p class="project-note">
+          The finished prototype automatically opened when a user approached, illuminated the
+          enclosure, and continuously monitored internal temperature. The project also required
+          repeated mechanical iteration to create a lightweight linkage that the small servo could
+          reliably operate.
+        </p>
+      </div>
+
+      <div class="pdf-toolbar">
+        <strong>Original Project Report · 8 pages</strong>
+        <div class="pdf-actions">
+          <a href="assets/downloads/security-delivery-project.pdf" target="_blank" rel="noopener">
+            Open Full PDF ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="pdf-viewer">
+        <iframe
+          src="assets/downloads/security-delivery-project.pdf#view=FitH"
+          title="Secure Delivery System project report"
+          loading="lazy"></iframe>
+      </div>
+      <div class="mobile-pdf-note">
+        If the embedded viewer is limited on your device, use “Open Full PDF” above.
+      </div>
+    </article>
+
+    <article class="project-panel" id="project-toycar" role="tabpanel"
+      aria-labelledby="tab-toycar" hidden>
+      <div class="project-summary">
+        <p class="project-kicker">DFT 170 · Fall 2024 · CAD / Engineering Graphics</p>
+        <h3>Pull Back Toy Car Design Blueprint</h3>
+        <p>
+          Recreated and documented a pull-back toy car assembly in SolidWorks, including the
+          chassis, gearbox housings, gears, shafts, wheels, engineering drawings, and exploded
+          assembly. The project then expanded the original mechanism into a conceptual car-plane
+          redesign with new wings, steering hardware, supports, bevel gearing, and a
+          rubber-band-driven propeller system.
+        </p>
+
+        <div class="project-meta">
+          <div><strong>CAD</strong>SolidWorks</div>
+          <div><strong>Documentation</strong>Engineering Drawings</div>
+          <div><strong>Mechanical Systems</strong>Gears + Linkages</div>
+          <div><strong>Design Work</strong>Assembly Redesign</div>
+        </div>
+
+        <div class="skill-tags" aria-label="Toy car design project skills">
+          <span>SolidWorks</span>
+          <span>CAD Assemblies</span>
+          <span>Exploded Views</span>
+          <span>Gear Systems</span>
+          <span>Technical Drawings</span>
+          <span>Material Selection</span>
+          <span>Concept Development</span>
+        </div>
+
+        <p class="project-note">
+          The final presentation documents the complete original assembly and the added car-plane
+          concept, including new component drawings, material selections, wing and steering
+          mechanisms, propeller-drive components, and future design recommendations.
+        </p>
+      </div>
+
+      <div class="pdf-toolbar">
+        <strong>Original Design Presentation · 55 pages</strong>
+        <div class="pdf-actions">
+          <a href="assets/downloads/pull-back-toy-car-design.pdf" target="_blank" rel="noopener">
+            Open Full PDF ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="pdf-viewer">
+        <iframe
+          data-src="assets/downloads/pull-back-toy-car-design.pdf#view=FitH"
+          title="Pull Back Toy Car Design Blueprint presentation"
+          loading="lazy"></iframe>
+      </div>
+      <div class="mobile-pdf-note">
+        If the embedded viewer is limited on your device, use “Open Full PDF” above.
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <strong>Zechariah Diegelman</strong>
+  <div class="footer-links">
+    <a href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="coursework.html">Course Archive</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.linkedin.com/in/zechariahdiegelman" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+  <div>Mechanical engineering student portfolio · Not an official UNC Charlotte website · © <span id="year"></span></div>
+</footer>
+<script src="assets/site-v4.js"></script>
+
+<script>
+  (function () {
+    const tabs = Array.from(document.querySelectorAll('[data-project-tab]'));
+    const panels = Array.from(document.querySelectorAll('.project-panel'));
+
+    function activateProject(tab) {
+      const targetId = tab.getAttribute('data-project-tab');
+
+      tabs.forEach((item) => {
+        const selected = item === tab;
+        item.setAttribute('aria-selected', selected ? 'true' : 'false');
+      });
+
+      panels.forEach((panel) => {
+        const active = panel.id === targetId;
+        panel.classList.toggle('active', active);
+        panel.hidden = !active;
+
+        if (active) {
+          const iframe = panel.querySelector('iframe[data-src]');
+          if (iframe && !iframe.getAttribute('src')) {
+            iframe.setAttribute('src', iframe.getAttribute('data-src'));
+          }
+        }
+      });
+    }
+
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => activateProject(tab));
+    });
+  })();
+</script>
+
+
+</body>
+</html>

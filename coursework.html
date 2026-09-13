@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Zechariah Diegelman mechanical engineering portfolio at UNC Charlotte.">
+  <title>Course Archive | Zechariah Diegelman</title>
+  <script>
+    (function(){
+      const saved=localStorage.getItem('zac-portfolio-theme');
+      const theme=(saved==='light'||saved==='dark')?saved:
+        (window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+      document.documentElement.setAttribute('data-theme',theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/site-v4.css">
+</head>
+<body data-page="projects">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="identity">
+      <h1>Zechariah Diegelman</h1>
+      <p>Mechanical Engineering Senior · Expected December 2027</p>
+      <span class="school">University of North Carolina at Charlotte</span>
+    </div>
+
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">☾ Dark</button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-item" data-nav="about" href="index.html">About Me</a>
+      <div class="dropdown">
+        <button class="nav-button" data-nav="projects" type="button" aria-haspopup="true" aria-expanded="false">
+          Projects <span class="chev">▼</span>
+        </button>
+        <div class="dropdown-menu" role="menu">
+          <a href="projects.html">Projects Overview</a>
+          <a href="sophomore-design.html">Sophomore Design</a>
+          <a href="freshman-design.html">Freshman Design</a>
+          <a href="mechatronics.html">Mechatronics I &amp; II</a>
+          <a href="additive-manufacturing.html">Additive Manufacturing</a>
+        </div>
+      </div>
+      <a class="nav-item" data-nav="resume" href="resume.html">Resume</a>
+      <a class="nav-item" data-nav="contact" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="card narrow">
+  <div class="card-head">
+    <h2>Course Archive</h2>
+    <p>Completed engineering course portfolios</p>
+  </div>
+  <div class="card-body">
+    <p class="archive-intro">The archive is grouped by course so visitors can get to the work they want without scrolling through one large page.</p>
+
+    <details class="archive-group">
+      <summary>
+        <span>Sophomore Design</span>
+        <span class="course-number">MEGR 2156 / MEGR 2156 L3D</span>
+      </summary>
+      <div class="archive-options">
+        <div class="archive-option">
+          <div>
+            <strong>Sophomore Design — 3D Printing Lab</strong>
+            <small>Additive-manufacturing laboratory portfolio.</small>
+          </div>
+          <div class="right">
+            <span class="course-number">MEGR 2156 L3D</span><br>
+            <a href="course-3d-printing-lab.html">Open portfolio →</a>
+          </div>
+        </div>
+        <div class="archive-option">
+          <div>
+            <strong>Sophomore Design — Lecture</strong>
+            <small>Mechanical-design lecture portfolio.</small>
+          </div>
+          <div class="right">
+            <span class="course-number">MEGR 2156</span><br>
+            <a href="course-sophomore-design.html">Open portfolio →</a>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <details class="archive-group">
+      <summary>
+        <span>Freshman Design</span>
+        <span class="course-number">Engineering Design</span>
+      </summary>
+      <div class="archive-options">
+        <div class="archive-option">
+          <div>
+            <strong>Freshman Design Final Project</strong>
+            <small>CAD, drawings, prototyping, and introductory engineering design.</small>
+          </div>
+          <div class="right"><a href="freshman-design.html">Open portfolio →</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="archive-group">
+      <summary>
+        <span>Mechatronics I &amp; II</span>
+        <span class="course-number">MEGR 2173/2174 · 3173/3174</span>
+      </summary>
+      <div class="archive-options">
+        <div class="archive-option">
+          <div>
+            <strong>Mechatronics Portfolio</strong>
+            <small>Circuits, instrumentation, controls, Arduino, LabVIEW, DAQ, calibration, and experimental testing.</small>
+          </div>
+          <div class="right"><a href="mechatronics.html">Open portfolio →</a></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="archive-group">
+      <summary>
+        <span>Additive Manufacturing</span>
+        <span class="course-number">MEGR 3090</span>
+      </summary>
+      <div class="archive-options">
+        <div class="archive-option">
+          <div>
+            <strong>Additive Manufacturing Portfolio</strong>
+            <small>nTop, implicit modeling, DfAM, and advanced printed-part design.</small>
+          </div>
+          <div class="right"><a href="additive-manufacturing.html">Open portfolio →</a></div>
+        </div>
+      </div>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <strong>Zechariah Diegelman</strong>
+  <div class="footer-links">
+    <a href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="coursework.html">Course Archive</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.linkedin.com/in/zechariahdiegelman" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+  <div>Mechanical engineering student portfolio · Not an official UNC Charlotte website · © <span id="year"></span></div>
+</footer>
+<script src="assets/site-v4.js"></script>
+
+</body>
+</html>

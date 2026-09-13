@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual vibrating beam instrumentation system</title>
+  <desc id="desc">A cantilever beam with strain gauge connected to a Wheatstone bridge, amplifier, data acquisition, and response plot.</desc>
+  <rect width="1200" height="700" fill="#0d1d2b"/>
+  <path d="M0 520 C240 470 380 570 600 520 S980 450 1200 520 V700 H0Z" fill="#102f2a" opacity=".7"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" fill="#78ddb9" font-size="25" font-weight="700" letter-spacing="3">CONCEPTUAL SYSTEM DIAGRAM</text>
+    <text x="70" y="126" fill="#f3f6f5" font-size="42" font-weight="700">Vibrating Cantilever Beam</text>
+    <g stroke="#dce7e3" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="80" y="247" width="55" height="210" rx="8" fill="#263e49"/>
+      <path d="M135 278 H480"/>
+      <path d="M480 278 q45 32 78 2" stroke="#78ddb9"/>
+      <path d="M442 264 v28 M458 262 v32 M474 267 v22" stroke="#f3b14a" stroke-width="4"/>
+      <path d="M515 306 C590 348 614 368 675 368" stroke="#78ddb9" stroke-width="4" stroke-dasharray="10 10"/>
+    </g>
+    <text x="183" y="237" fill="#c9d4da" font-size="23">Aluminum beam</text>
+    <text x="405" y="329" fill="#f3b14a" font-size="21">Strain gauge</text>
+    <g transform="translate(650 190)">
+      <rect width="190" height="145" rx="18" fill="#f5f7f6"/>
+      <path d="M42 73 L75 40 L108 73 L75 106 Z M108 73 L141 40 L174 73 L141 106 Z" fill="none" stroke="#1a3f35" stroke-width="5"/>
+      <text x="95" y="132" text-anchor="middle" fill="#254138" font-size="19" font-weight="700">Bridge</text>
+    </g>
+    <path d="M840 263 H900" stroke="#78ddb9" stroke-width="6"/>
+    <g transform="translate(900 190)">
+      <rect width="220" height="145" rx="18" fill="#18374a" stroke="#4d6b7a" stroke-width="2"/>
+      <path d="M50 105 L50 40 L155 73 Z" fill="none" stroke="#f3f6f5" stroke-width="5"/>
+      <text x="110" y="132" text-anchor="middle" fill="#78ddb9" font-size="19" font-weight="700">AD623 amplifier</text>
+    </g>
+    <g transform="translate(650 420)">
+      <rect width="470" height="190" rx="18" fill="#f5f7f6"/>
+      <line x1="55" y1="145" x2="425" y2="145" stroke="#617178" stroke-width="3"/>
+      <line x1="55" y1="35" x2="55" y2="145" stroke="#617178" stroke-width="3"/>
+      <path d="M58 60 C86 30 112 168 142 78 S196 38 224 90 S275 55 300 97 S349 72 374 107 S409 94 424 111" fill="none" stroke="#1f765f" stroke-width="6"/>
+      <text x="235" y="177" text-anchor="middle" fill="#254138" font-size="19" font-weight="700">LabVIEW transient response</text>
+    </g>
+    <path d="M1010 335 V405" stroke="#78ddb9" stroke-width="6"/>
+    <circle cx="1010" cy="370" r="8" fill="#78ddb9"/>
+  </g>
+</svg>

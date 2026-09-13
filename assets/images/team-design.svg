@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual team engineering design process</title>
+  <desc id="desc">A staged flow from requirements to concepts, prototype, testing, and iteration.</desc>
+  <rect width="1200" height="700" fill="#0d1d2b"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" fill="#78ddb9" font-size="25" font-weight="700" letter-spacing="3">CONCEPTUAL DESIGN PROCESS</text>
+    <text x="70" y="126" fill="#f3f6f5" font-size="42" font-weight="700">Team Engineering Design</text>
+    <path d="M130 360 H1070" stroke="#416170" stroke-width="10" stroke-linecap="round"/>
+    <g text-anchor="middle">
+      <g transform="translate(150 360)">
+        <circle r="74" fill="#f5f7f6" stroke="#78ddb9" stroke-width="8"/>
+        <path d="M-22 -28 H22 M-22 -5 H22 M-22 18 H10" stroke="#1a3f35" stroke-width="7" stroke-linecap="round"/>
+        <text y="118" fill="#f3f6f5" font-size="23" font-weight="700">Requirements</text>
+      </g>
+      <g transform="translate(375 360)">
+        <circle r="74" fill="#17384a" stroke="#78ddb9" stroke-width="8"/>
+        <path d="M-32 10 L0 -30 L32 10 L18 38 H-18Z" fill="none" stroke="#f3f6f5" stroke-width="6"/>
+        <text y="118" fill="#f3f6f5" font-size="23" font-weight="700">Concepts</text>
+      </g>
+      <g transform="translate(600 360)">
+        <circle r="74" fill="#f5f7f6" stroke="#f3b14a" stroke-width="8"/>
+        <path d="M-34 18 L-12 -30 L32 -10 L22 34 Z" fill="none" stroke="#1a3f35" stroke-width="6"/>
+        <circle cx="-5" cy="1" r="9" fill="#1f765f"/>
+        <text y="118" fill="#f3f6f5" font-size="23" font-weight="700">Prototype</text>
+      </g>
+      <g transform="translate(825 360)">
+        <circle r="74" fill="#17384a" stroke="#78ddb9" stroke-width="8"/>
+        <path d="M-32 22 L-5 -15 L17 6 L39 -28" fill="none" stroke="#f3f6f5" stroke-width="7" stroke-linecap="round"/>
+        <text y="118" fill="#f3f6f5" font-size="23" font-weight="700">Test</text>
+      </g>
+      <g transform="translate(1050 360)">
+        <circle r="74" fill="#f5f7f6" stroke="#78ddb9" stroke-width="8"/>
+        <path d="M-34 3 A38 38 0 1 1 15 35" fill="none" stroke="#1f765f" stroke-width="7"/>
+        <path d="M-44 -8 L-34 3 L-21 -8" fill="none" stroke="#1f765f" stroke-width="7"/>
+        <text y="118" fill="#f3f6f5" font-size="23" font-weight="700">Iterate</text>
+      </g>
+    </g>
+    <g fill="#78ddb9">
+      <path d="M248 345 L280 360 L248 375Z"/><path d="M473 345 L505 360 L473 375Z"/><path d="M698 345 L730 360 L698 375Z"/><path d="M923 345 L955 360 L923 375Z"/>
+    </g>
+    <text x="600" y="606" text-anchor="middle" fill="#b8c7ce" font-size="22">Define · select · build · measure · improve</text>
+  </g>
+</svg>

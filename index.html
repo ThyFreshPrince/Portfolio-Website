@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Zechariah Diegelman mechanical engineering portfolio at UNC Charlotte.">
+  <title>About Me | Zechariah Diegelman</title>
+  <script>
+    (function(){
+      const saved=localStorage.getItem('zac-portfolio-theme');
+      const theme=(saved==='light'||saved==='dark')?saved:
+        (window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+      document.documentElement.setAttribute('data-theme',theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/site-v4.css">
+</head>
+<body data-page="about">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="identity">
+      <h1>Zechariah Diegelman</h1>
+      <p>Mechanical Engineering Senior · Expected December 2027</p>
+      <span class="school">University of North Carolina at Charlotte</span>
+    </div>
+
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">☾ Dark</button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-item" data-nav="about" href="index.html">About Me</a>
+      <div class="dropdown">
+        <button class="nav-button" data-nav="projects" type="button" aria-haspopup="true" aria-expanded="false">
+          Projects <span class="chev">▼</span>
+        </button>
+        <div class="dropdown-menu" role="menu">
+          <a href="projects.html">Projects Overview</a>
+          <a href="sophomore-design.html">Sophomore Design</a>
+          <a href="freshman-design.html">Freshman Design</a>
+          <a href="mechatronics.html">Mechatronics I &amp; II</a>
+          <a href="additive-manufacturing.html">Additive Manufacturing</a>
+        </div>
+      </div>
+      <a class="nav-item" data-nav="resume" href="resume.html">Resume</a>
+      <a class="nav-item" data-nav="contact" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="card narrow">
+  <div class="card-head">
+    <h2>About Me</h2>
+    <p>Background · engineering · experience · perspective</p>
+  </div>
+  <div class="card-body">
+    <div class="bio-layout">
+      <div class="bio-copy">
+        <p><strong>My name is Zechariah (Zac) Diegelman</strong>, and I am a Mechanical Engineering senior at UNC Charlotte. My path into engineering was not traditional. After high school, I spent several years working in hands-on roles including cabinetry, landscaping, construction and home-service work, crew leadership, and farm work. Those experiences taught me how to work with tools, solve problems in real time, adapt when plans change, communicate with customers and teammates, and take responsibility for the quality of the finished result.</p>
+
+        <p>I eventually realized that I wanted a career that combined that practical experience with a much deeper technical challenge. Mechanical engineering stood out because it brings together the things I enjoy most: <strong>designing, building, analyzing, testing, troubleshooting, and improving how things work.</strong> Since returning to school, I have earned an Associate in Engineering from Central Piedmont Community College and continued into the B.S. Mechanical Engineering program at UNC Charlotte.</p>
+
+        <p>I especially enjoy engineering work where an idea becomes something physical. My coursework has given me experience with <strong>SolidWorks, nTop, MATLAB, Python, C++, Arduino, LabVIEW, data acquisition, instrumentation, additive manufacturing, prototyping, and mechanical analysis.</strong> Some of my favorite work has involved building mechatronic systems, collecting real experimental data, developing CAD models, iterating printed parts, and comparing calculated or simulated behavior with what actually happens in a physical system.</p>
+
+        <p>My background has also shaped the way I approach people and challenges. I grew up as a missionary kid and lived in <strong>Costa Rica and Honduras</strong>, experiences that gave me a broader perspective and helped me become fluent in Spanish. My faith remains central to who I am and influences the way I try to work—with integrity, persistence, humility, and respect for the people around me.</p>
+
+        <p>Outside of engineering, I am married and enjoy spending time with my family and our Mini Australian Shepherd. I am motivated by growth—personal, professional, educational, and spiritual—and I want to build a career where I can keep learning while contributing to real products, systems, and engineering solutions.</p>
+      </div>
+
+      <div>
+        <img class="bio-photo" src="assets/images/about-me-photo.jpg" alt="Professional headshot of Zechariah Diegelman">
+        <p class="bio-photo-caption">Zechariah Diegelman</p>
+      </div>
+    </div>
+
+    <div class="bio-callout">
+      <p><strong>For a more complete view of my work experience, skills, certifications, and professional background, visit my LinkedIn profile.</strong></p>
+      <div class="button-row">
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/zechariahdiegelman" target="_blank" rel="noopener">View LinkedIn ↗</a>
+        <a class="btn btn-secondary" href="resume.html">View Resume</a>
+      </div>
+    </div>
+
+    <div class="meta-row">
+      <span class="pill">GPA 3.20</span>
+      <span class="pill">B.S.M.E. · Dec. 2027</span>
+      <span class="pill">A.E. · CPCC</span>
+      <span class="pill">Charlotte, NC</span>
+      <span class="pill">Spanish</span>
+      <span class="pill">Open to internships &amp; co-ops</span>
+    </div>
+
+    <div class="focus-strip">
+      <div class="focus-item">
+        <strong>CAD &amp; Design</strong>
+        <span>SolidWorks · AutoCAD · nTop · Blender · Mathcad</span>
+      </div>
+      <div class="focus-item">
+        <strong>Programming</strong>
+        <span>MATLAB · Python · C++ · Arduino · LabVIEW</span>
+      </div>
+      <div class="focus-item">
+        <strong>Test &amp; Instrumentation</strong>
+        <span>DAQ · sensors · strain gauges · Multisim</span>
+      </div>
+      <div class="focus-item">
+        <strong>Fabrication</strong>
+        <span>3D printing · prototyping · shop tools · drawings</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <strong>Zechariah Diegelman</strong>
+  <div class="footer-links">
+    <a href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="coursework.html">Course Archive</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.linkedin.com/in/zechariahdiegelman" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+  <div>Mechanical engineering student portfolio · Not an official UNC Charlotte website · © <span id="year"></span></div>
+</footer>
+<script src="assets/site-v4.js"></script>
+
+</body>
+</html>

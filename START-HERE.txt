@@ -1,0 +1,17 @@
+ZECHARIAH DIEGELMAN PORTFOLIO — VERSION 3
+
+Upload the CONTENTS of this folder directly into /public_html using FileZilla.
+Choose Overwrite when prompted. Do not upload the enclosing folder itself.
+
+THIS VERSION CONTAINS TWO SEPARATE COURSE ARCHIVES:
+1. MEGR 2156 L3D — 3D Printing Lab
+   - 15 exported content pages
+   - 94 bundled images
+   - 115 original files
+2. MEGR 2156/2157 — Sophomore Design lecture/design
+   - 13 exported content pages
+   - 82 bundled images
+   - 109 original files
+
+Both appear under Projects and Course Archive. Exact original ZIP exports are downloadable from the website.
+Expected graduation remains Fall 2027. LinkedIn remains in the navigation.

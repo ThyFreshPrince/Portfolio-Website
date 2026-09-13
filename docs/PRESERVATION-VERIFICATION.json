@@ -1,0 +1,12 @@
+{
+  "design": {
+    "exact_non_html_files": 96,
+    "html_pages_text_and_refs_preserved": 13,
+    "failures": []
+  },
+  "l3d": {
+    "exact_non_html_files": 100,
+    "html_pages_text_and_refs_preserved": 15,
+    "failures": []
+  }
+}
